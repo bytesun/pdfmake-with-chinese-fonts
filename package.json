@@ -1,0 +1,16 @@
+{
+  "name": "pdfmake-with-chinese-fonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pdfmake.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdfmake",
+    "chinese",
+    "fonts"
+  ],
+  "author": "Sun",
+  "license": "MIT"
+}
