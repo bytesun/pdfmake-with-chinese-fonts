@@ -1,6 +1,6 @@
 {
   "name": "pdfmake-with-chinese-fonts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "pdfmake.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "chinese",
     "fonts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bytesun/pdfmake-with-chinese-fonts.git"
+  },
   "author": "Sun",
   "license": "MIT"
 }
