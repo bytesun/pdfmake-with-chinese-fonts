@@ -6,27 +6,25 @@ fonts:
 	
 	
 ===usage===
-import pdfMake from "pdfmake-with-chinese-fonts/pdfmake";
-import pdfFonts from "pdfmake-with-chinese-fonts/vfs_fonts";
 
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
+	import pdfMake from "pdfmake-with-chinese-fonts/pdfmake";
+	import pdfFonts from "pdfmake-with-chinese-fonts/vfs_fonts";
 
-pdfMake.fonts = {
-  Roboto: {
-     normal: 'Roboto-Regular.ttf',
-     bold: 'Roboto-Medium.ttf',
-     italics: 'Roboto-Italic.ttf',
-     bolditalics: 'Roboto-MediumItalic.ttf'
- },
+	pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
- msyh: { 
-     normal: 'msyh.ttf',
-     bold: 'msyh.ttf',
-     italics: 'msyh.ttf',
-     bolditalics: 'msyh.ttf',
-    
-     }
- };
+	pdfMake.fonts = {
+ 	 Roboto: {
+    	 normal: 'Roboto-Regular.ttf',
+    	 bold: 'Roboto-Medium.ttf',
+     	italics: 'Roboto-Italic.ttf',
+     	bolditalics: 'Roboto-MediumItalic.ttf'
+	 },
+	 msyh: { 
+   	  normal: 'msyh.ttf',
+   	  bold: 'msyh.ttf',
+   	  italics: 'msyh.ttf',
+    	 bolditalics: 'msyh.ttf'
+   	  }
+ 	};
  
- 
- defaultStyle: {font: 'msyh' },
+	defaultStyle: {font: 'msyh' },`
